@@ -1,16 +1,13 @@
 # Expense_Tracker
 
-A new Flutter project.
+A simple Dart/Flutter app which allows the user to track his expenses, illustrating the daily percentage of money spent.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+-The application utilizes Cupertino, Material Design and intl.dart package for date formatting.
 
-A few resources to get you started if this is your first Flutter project:
+-Adapted for use in landscape mode and uses Cupertino for IOS as well as Material for Android.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+-New expenses can be added by adding a title, amount and picking a date via a datepicker. The expenses are calculated on a chart bar which gives the ability to compare the amount of money spent in one day in comparison to the rest of the week. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
